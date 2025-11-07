@@ -1,0 +1,491 @@
+@media (max-width:1200px) {
+    .catalog {
+        margin: 120px 0;
+    }
+
+    .catalog_text {
+        margin-bottom: 80px;
+        text-align: justify;
+    }
+
+    .catalog_tittle {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .shirt_box {
+        justify-content: center;
+    }
+
+    .shirt_card {
+        width: 320px;
+        height: 450px;
+    }
+
+    .shirt_card-img {
+        width: 220px;
+    }
+
+    .shirt_card-tittle {
+        margin: 10px 0;
+    }
+
+    .shirt_card-text {
+        margin-bottom: 10px;
+    }
+
+    .shirt_card-btn {
+        padding: 12px 20px;
+    }
+
+    .header {
+        height: 800px;
+        text-align: center;
+    }
+
+    .intro_btns {
+        justify-content: center;
+    }
+
+    .intro_tittle {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .intro_btn {
+        width: 230px;
+        height: 75px;
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media (max-width:1140px) {
+    .catalog_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog_box img {
+        height: 300px;
+        max-width: 500px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+
+
+@media (max-width:1000px) {
+    .footer_top {
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        padding: 60px 0;
+    }
+
+    .footer_top-label {
+        width: 400px;
+    }
+
+    .footer_top-label img {
+        width: 40px;
+    }
+
+    .catalog {
+        margin: 90px 0;
+    }
+
+    .catalog_text {
+        margin-bottom: 60px;
+        font-size: 22px;
+    }
+
+    .catalog_tittle {
+        font-size: 35px;
+
+        margin-bottom: 30px;
+    }
+
+    .shirt_nav {
+        height: 90px;
+    }
+
+    .intro_btn {
+        width: 200px;
+        height: 60px;
+    }
+
+    .intro_tittle {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .header {
+        height: 700px;
+    }
+
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .nav_list {
+        gap: 80px;
+    }
+}
+
+@media (max-width:900px) {
+    .header {
+        height: 600px;
+    }
+}
+
+@media (max-width:800px) {
+    .footer_top {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .header {
+        height: 470px;
+    }
+
+    .intro_btns {
+        gap: 20px;
+    }
+
+    .intro_tittle {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .intro_btn {
+        width: 160px;
+        height: 50px;
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .footer_top-label {
+        width: 320px;
+    }
+    .footer_top-label input{
+        font-size: 18px;
+    }
+    .footer_top-label img{
+        width: 30px;
+    }
+    .footer{
+        padding-top: 35px;
+        padding-bottom: 100px;
+    }
+    .shirt_box {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .shirt_card {
+        width: 260px;
+        height: 370px;
+        padding: 13px;
+    }
+
+    .shirt_card-heart img {
+        width: 37px;
+    }
+
+    .shirt_card-sale {
+        width: 40px;
+        height: 170px;
+    }
+
+
+    .shirt_card-sale span {
+        font-style: 17px;
+    }
+
+    .shirt_card-img {
+        width: 180px;
+    }
+
+    .shirt_card-tittle {
+        line-height: 100%;
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+
+    .shirt_card-text {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .shirt_card-price {
+        font-size: 20px;
+    }
+
+    .shirt_card-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .shirt_nav {
+        display: none;
+    }
+
+    .header {
+        height: 380px;
+    }
+
+    .nav_box {
+        display: none;
+    }
+
+    .nav {
+        position: fixed;
+        padding: 10px 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(15px);
+        z-index: 99;
+    }
+
+    .nav_mobile {
+        display: block;
+    }
+
+    .nav_mobile-link img {
+        width: 30px;
+    }
+
+    .nav_mobile-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_mobile-link {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-decoration: none;
+        align-items: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #fff;
+    }
+}
+
+@media (max-width:600px) {
+    .footer_tittle{
+        font-size: 17px;
+    }
+    .footer_link{
+        font-size: 15px;
+    }
+    .footer_list{
+        text-align: center;
+        gap: 5px;
+    }
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    .footer_top{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .catalog_box {
+        gap: 15px;
+    }
+
+    .catalog_info {
+        gap: 15px;
+
+    }
+
+    .catalog_box img {
+        height: 200px;
+        max-width: 320px;
+    }
+
+    .catalog {
+        margin: 30px 0;
+    }
+
+    .catalog_text {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .catalog_tittle {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .shirt_box {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .shirt_card {
+        flex-shrink: 0;
+        width: 220px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .shirt_card-heart {
+        top: 10px;
+        left: 10px;
+
+    }
+
+    .shirt_card-heart img {
+        width: 30px;
+    }
+
+    .shirt_card-sale {
+        width: 35px;
+        height: 140px;
+        top: -35px;
+    }
+
+    .shirt_card-sale span {
+        font-size: 14px;
+
+    }
+
+    .shirt_card-img {
+        width: 150px;
+    }
+
+    .shirt_card-tittle {
+        font-size: 14px;
+        margin-bottom: 5px;
+
+    }
+
+    .shirt_card-text {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .shirt_card-price {
+        font-size: 17px;
+
+    }
+
+    .shirt_card-btn {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .header {
+        height: 320px;
+    }
+
+    .intro_btns {
+        gap: 15px;
+    }
+
+    .intro_tittle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .intro_btn {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+    .nav_mobile-link {
+        font-size: 16px;
+    }
+
+    .nav_mobile-link img {
+        width: 25px;
+    }
+}
+
+@media(max-width:400px) {
+    .footer_top-label{
+        width: 270px;
+        padding: 5px 15px;
+    }
+    .footer_top-label input{
+        font-size: 16px;
+    }
+    .footer_top-label img{
+        width: 27px;
+    }
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    .footer_info{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .footer_list{
+        width: 150px;
+    }
+    .catalog_box img {
+        height: 150px;
+        max-width: 250px;
+    }
+
+    .catalog {
+        margin: 20px 0;
+    }
+
+    .catalog_text {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .catalog_tittle {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .nav_mobile-link span {
+        display: none;
+    }
+
+    .header {
+        height: 250px;
+    }
+
+    .intro_tittle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .intro_btn {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
